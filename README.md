@@ -95,8 +95,8 @@ It uses container-based code execution and dynamic deployment through Kubernetes
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/your-org/cloud-code.git
-   cd cloud-code
+   git clone https://github.com/adeebkhans/CloudCode.git
+   cd cloudcode
    ```
 
 2. **Configure Environment**
