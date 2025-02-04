@@ -124,9 +124,8 @@ It uses container-based code execution and dynamic deployment through Kubernetes
    
    # Runner Service
    cd backend/runner-service && npm start
-
-  Note: for note pty package you may see some errors, please make sure to install
-  "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
+    Note: for note pty package you may see some errors, please make sure to install
+    "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
 
    # Orchestrator
    cd backend/orchestrator && npm start
