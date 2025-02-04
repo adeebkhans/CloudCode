@@ -152,6 +152,8 @@ The terminal interface uses:
 - **xterm.js**: Browser-based terminal emulator
 - **xterm-addon-fit**: Auto-resize functionality
 - **node-pty**: Pseudoterminal backend
+  Note: for note pty package you may see some errors, please make sure to install
+  "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
 
 
 ## Monitoring & Logging 📊
