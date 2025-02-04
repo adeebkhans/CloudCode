@@ -101,7 +101,7 @@ It uses container-based code execution and dynamic deployment through Kubernetes
 
 2. **Configure Environment**
    ```bash
-   # Backend
+   # Backend (in each service)
    cp backend/.env.example backend/.env
    
    # Frontend
@@ -121,6 +121,12 @@ It uses container-based code execution and dynamic deployment through Kubernetes
    ```bash
    # Init Service
    cd backend/init-service && npm start
+   
+   # Runner Service
+   cd backend/runner-service && npm start
+
+  Note: for note pty package you may see some errors, please make sure to install
+  "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
 
    # Orchestrator
    cd backend/orchestrator && npm start
@@ -152,8 +158,7 @@ The terminal interface uses:
 - **xterm.js**: Browser-based terminal emulator
 - **xterm-addon-fit**: Auto-resize functionality
 - **node-pty**: Pseudoterminal backend
-  Note: for note pty package you may see some errors, please make sure to install
-  "MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libraries" from visual studio builder
+
 
 
 ## Monitoring & Logging 📊
